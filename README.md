@@ -41,3 +41,18 @@ pip install -r requirements.txt
 5. Add tests to verify key behaviors.
 6. Connect your logic to the Streamlit UI in `app.py`.
 7. Refine UML so it matches what you actually built.
+
+## 🌟 Features (Smarter Scheduling)
+- **Chronological Sorting:** Uses a custom lambda function to automatically sort all pet tasks by their time string ("HH:MM") so the daily plan flows logically.
+- **Conflict Warnings:** The Scheduler algorithm detects and warns the user if two tasks across any pets are scheduled at the exact same start time.
+- **Daily Recurrence Logic:** Built-in logic to handle repeating tasks, allowing daily routines to easily duplicate.
+
+## 📸 Demo
+*(Take a screenshot of your running app with a schedule generated and a conflict warning showing, save it as `pawpal_demo.png` in your folder, and it will appear below)*
+<a href="pawpal_demo.png" target="_blank"><img src='pawpal_demo.png' title='PawPal App' width='600' alt='PawPal App' class='center-block' /></a>
+
+## 🧪 Testing PawPal+
+This project includes an automated test suite verifying the core object-oriented logic and scheduling algorithms.
+- **Run the tests:** `python -m pytest`
+- **Coverage:** The suite tests task completion, object addition, sorting accuracy, and conflict detection. 
+- **Confidence Level:** ⭐⭐⭐⭐ (4/5 stars). The core logic is fully verified for standard use cases.
