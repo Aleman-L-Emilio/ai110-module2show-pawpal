@@ -48,7 +48,6 @@ pip install -r requirements.txt
 - **Daily Recurrence Logic:** Built-in logic to handle repeating tasks, allowing daily routines to easily duplicate.
 
 ## 📸 Demo
-*(Take a screenshot of your running app with a schedule generated and a conflict warning showing, save it as `pawpal_demo.png` in your folder, and it will appear below)*
 <a href="pawpal_demo.png" target="_blank"><img src='pawpal_demo.png' title='PawPal App' width='600' alt='PawPal App' class='center-block' /></a>
 
 ## 🧪 Testing PawPal+
